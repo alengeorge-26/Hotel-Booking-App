@@ -1,0 +1,43 @@
+.homecontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    color: black;
+}
+
+.featured{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    position: relative;
+}
+
+.featured img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.featureditem{
+    position: relative;
+    cursor: pointer;
+}
+
+.imagetitle{
+    position: absolute;
+    bottom:0px;
+    left: 10px;
+    font-size: small;
+    color: ghostwhite;
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}

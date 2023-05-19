@@ -1,0 +1,109 @@
+.hcontainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.hwrapper{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 25px;
+}
+
+.htitle{
+    font-weight: 900;
+}
+
+.hadd{
+    margin-top: 5px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.hdist{
+    margin-top: 10px;
+    font-weight: 900;
+    color:darkcyan
+}
+.hprice{
+    margin-top: 10px;
+    font-weight: 900;
+    color: forestgreen;
+}
+
+.himglist{
+    margin-top: 10px;
+    width:100%;
+    height:600px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.himagewrapper{
+    width: 30%;
+}
+
+.himg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hdescprice{
+    margin-top: 50px;
+    display: flex;
+    gap:10px
+}
+
+.hdesctext{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    max-width: 70%;
+    min-width: 70%;
+    max-height: 100%;
+    overflow: auto;
+}
+
+.hpricetext{
+    min-width: 30%;
+    max-width: 30%;
+    max-height: 100%;
+    overflow: auto;
+    background: rgb(16, 16, 88);
+    padding: 10px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+
+.hpricetext h1{
+    font-size: 24px;
+    text-align: center;
+}
+
+.hpricetext p{
+    font-weight: 500;
+    font-size: medium;
+}
+
+.hpricetext button{
+    width: 80%;
+    border-radius: 5px;
+    border: none;
+    background: crimson;
+    color: aliceblue;
+}
+
+
+

@@ -1,0 +1,32 @@
+.plist{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+
+.plistitem{
+    position: relative;
+}
+
+.plistitem img{
+    width: 100%; 
+    cursor: pointer;
+    object-fit: cover; 
+    border-radius: 15px;;
+}
+
+.plistname{
+    position: absolute;
+    bottom:5px;
+    width: 100%;
+    font-size: x-small;
+    color: ghostwhite;
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}

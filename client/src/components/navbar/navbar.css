@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+
+.navbar{
+    height: 90px;
+    background-color: blue;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navcontainer{
+    width: 90%;
+    color: aliceblue;
+    max-width: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.navButton{
+    margin-left: 10px;
+    color: aliceblue;
+    background: crimson;
+    border-radius: 8px;
+    border-color: crimson;
+    font-size: 15px;
+    border: none;
+    cursor:pointer;
+    padding: 10px ;
+    font-weight: 600;
+    width: 100px;
+    text-align: center;
+}
+

@@ -1,0 +1,219 @@
+.listcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listwrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+    gap:20px;
+}
+
+
+.listsearch{
+    flex:1;
+    background-color: crimson;
+    max-width: 40%;
+    text-align: center;
+    border-radius: 8px;
+    max-height: 900px;
+    min-width: 30%;
+}
+
+
+.lstitle{
+    color: aliceblue;
+    
+}
+
+.dest{
+    margin-top:20px;
+    border-radius:8px;
+    margin-bottom: 5px;
+}
+
+.dest h3{
+    color: aliceblue;
+}
+
+.desttext{
+    border-radius: 8px;
+    width:70%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.options{
+    margin-top: 20px;
+}
+
+.options h4{
+    color: aliceblue;
+    align-items: center;
+}
+
+.optcont{
+    margin-top: 10px;
+    padding-left: 40px;
+}
+
+.optval{
+    width:20%;
+    padding:5px;
+    border:none;
+    border-radius: 5px;
+}
+
+.opt{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    width: 90%;
+}
+
+.optext{
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.lssearch{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.lssearch button{
+    background: rgb(16, 16, 88);
+    color:aliceblue;
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+}
+
+.listresult{
+    flex:3;
+    min-width:75%;
+    max-width:75%;
+}
+
+.hl{
+    width: 100%;
+}
+
+.hotel{
+    border:5px solid;
+    min-height: 300px;
+    max-height: 300px;
+    width: 100%;
+    padding-top: 8px;
+    padding-left: 10px;
+    gap:10px;
+    display: flex;
+}
+
+.hotel img{
+    width:35%;
+    min-height: 280px;
+    max-height: 280px;
+}
+
+.hdet{
+    min-width: 63%;
+    max-height: 280px;
+    min-height: 280px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    position: relative;
+}
+
+.named{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-height: 40px;
+}
+
+.hname{
+    width:53%;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hgrade{
+    width:25%;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hrate{
+    background: rgb(16, 16, 88);
+    padding: 4px;
+    color: aliceblue;
+    border:none;
+    border-radius: 3px;
+}
+
+.add{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dist{
+    font-weight: 600;
+}
+
+.taxi{
+    background: rgb(52, 223, 21);
+    padding: 4px;
+    color: aliceblue;
+    border:none;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.feature,.room{
+    font-weight: 600;
+}
+
+.price{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc{
+    font-weight: 600;
+    color: green;
+}
+
+.doll{
+    background: rgb(16, 16, 88);
+    padding: 4px;
+    color: aliceblue;
+    border:none;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.availbut{
+    background: rgb(16, 16, 88);
+    padding: 7px;
+    color: aliceblue;
+    border:none;
+    border-radius: 5px;
+    width: 30%;
+    position: absolute;
+    left:35%;
+}
+.descalender{
+    width: 100%;
+}

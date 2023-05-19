@@ -1,0 +1,42 @@
+.mail{
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    background:rgb(16, 16, 88);
+    width:100%;
+}
+
+.mailtitle{
+    margin-top: 20px;
+    color: aliceblue;
+}
+
+.maildesc{
+    font-weight: 800;
+    color: rgb(240, 240, 240)
+}
+
+.mailbox{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 800;
+}
+
+.mailbox input{
+    border-radius:8px;
+    padding: 2px;
+    width: 500px;
+    outline: none;
+    border:none;
+}
+
+.mailbox button{
+    background: crimson;
+    color: aliceblue;
+    border: none;
+    border-radius:5px;
+    padding: 5px;
+}

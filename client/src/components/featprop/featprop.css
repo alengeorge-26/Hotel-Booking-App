@@ -1,0 +1,50 @@
+.fp{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    gap:10px
+}
+
+.fpitem{
+    position: relative;
+}
+
+.fpitem img{
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover; 
+    border-radius: 15px;;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.fpname{
+    font-weight: 800;
+    font-size: larger;
+}
+
+.fpcity{
+    font-weight: 600;
+}
+.fpprice{
+    font-weight: 600;
+}
+
+.fprating{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-weight: 800;
+    align-items: center;
+}
+
+.fprating button{
+    border: none;
+    background: rgb(47, 217, 0);
+    padding: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
